@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+img{border: 0;border: none;  }
+ul,ol,li{list-style-type: none}
+a{text-decoration: none;color: #000}
+body{line-height: 1.5em;font-family:"宋体", Arial;}
+.o_h{overflow: hidden}
+.f_l{float: left;}
+.f_r{float: right;}
+.red{color: red}
+
+
+
+header,main,footer{
+    width: 100%;
+}
+/*-----------------------------------------页首---------------------------------*/
+header .header_top_nav{
+    background: #F4F4F4;
+    font-size: 14px;
+}
+header .header_top_nav .top_nav_bd{
+    width: 80%;
+    min-width: 1024px;
+    height: 40px;
+    margin: 0 auto;
+    line-height: 40px;
+}
+header .header_top_nav ul.top_nav_left li{
+    float: left;
+    position: relative;
+    padding-right: 10px;
+}
+header .header_top_nav .top_nav_left li a{
+    display: block;
+    padding-left: 25px;
+    padding-right: 5px;
+    line-height: 40px;
+}
+header .header_top_nav .top_nav_left li a:hover{
+    background: #DCDCDC;
+}
+header .header_top_nav .top_nav_left li span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top: 9px;
+    background: url("../images/sprite.png") no-repeat -13px -80px;
+}
+header .header_top_nav .top_nav_left li:last-child span{
+    background: url("../images/sprite.png") no-repeat -102px -18px;
+}
+
+header .header_top_nav .top_nav_right li{
+    float: left;
+}
+header .header_top_nav .top_nav_right li a{
+    display: inline-block;
+    height: 40px;
+    padding: 0 10px;
+    background: url("../images/gray.jpg") no-repeat  right center;
+}
+header .header_top_nav .top_nav_right li a span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: -3px;
+    top: 5px;
+}
+header .header_top_nav .top_nav_right li a:hover{
+    background: #DCDCDC;
+}
+header .header_top_nav .top_nav_right li:last-child a{
+    background-image: none;
+}
+/*-----------------------------页首LOGO部分-------------------------*/
+.header_wrapper{
+    width: 80%;
+    min-width: 1024px;
+    margin: 0 auto;
+}
+.header_wrapper .header_wrapper_left{
+    width: 25%;
+    padding-top: 40px;
+}
+.header_wrapper h1{
+    width: 40%;
+    text-align: center;
+    padding: 30px 0;
+}
+.header_wrapper .header_wrapper_left li{
+    float: left;
+    width: 25%;
+}
+.header_wrapper .header_wrapper_left li a{
+    display: block;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+}
+.header_wrapper .header_wrapper_left li.black a{
+    background: #3A3A3A;
+    color: #fff;
+}
+.header_wrapper .header_wrapper_left li a span{
+    display: block;
+    font-size: 14px;
+    color: #8E8E8E;
+}
+.header_wrapper .header_wrapper_right{
+    padding-top: 40px;
+    width: 35%;
+}
+.header_wrapper .header_wrapper_right form input{
+    height: 30px;
+    width: 60%;
+    border: 1px solid #000;
+    padding : 0 10px;
+}
+.header_wrapper .header_wrapper_right form input:nth-of-type(2){
+    width: 20%;
+    background: #3A3A3A;
+    color: #fff;
+}
+.header_wrapper .header_wrapper_right form a{
+    float: right;
+    padding: 0 10px;
+}
+.header_wrapper .header_wrapper_right form a:hover:after{
+    content: url("../images/shop-bg.jpg");
+    position: absolute;
+    top: 115px;
+    right: 10%;
+    z-index: 999;
+}
+.header_wrapper .header_wrapper_right ul li{
+    float: left;
+    padding:5px;
+    font-size: 12px;
+}
+.header_wrapper .header_wrapper_right ul li a{
+    color: #909090;
+    font-weight: bold;
+}
+.header_wrapper .header_wrapper_right ul li a:hover{
+    color: #D0021B;
+}
+/*--------------------------主导航--------------------------------------*/
+.header_bottom_nav{
+    background: #3A3A3A;
+    margin-top: -13px;
+    width: 100%;
+}
+.header_bottom_nav ul{
+    width: 80%;
+    min-width: 1024px;
+    margin: 0 auto;
+    height: 40px;
+}
+.header_bottom_nav ul li{
+    float: left;
+    padding-right: 70px;
+}
+.header_bottom_nav ul li>a{
+    display: block;
+    color: #fff;
+    line-height: 40px;
+}
+.header_bottom_nav ul li:hover>a{
+    text-decoration: underline;
+}
+.header_bottom_nav .two_list{
+    width: 80%;
+    background: #fff;
+    min-width: 1024px;
+    position: absolute;
+    top: 180px;
+    left: 10%;
+    height: 350px;
+    display: none;
+    z-index: 99;
+}
+.header_bottom_nav .two_list dl{
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+    margin-top: 20px;
+    border-right: 1px solid #666;
+}
+.header_bottom_nav .two_list dl:last-of-type{
+    border: 0;
+}
+.header_bottom_nav .two_list figure{
+    float: right;
+    width: 25%;
+    padding-top: 40px;
+}
+.header_bottom_nav .two_list dl dt{
+    margin-right: 20%;
+    border-bottom: 1px solid #666;
+}
+.header_bottom_nav .two_list dl a{
+    line-height: 40px;
+}
+.header_bottom_nav .two_list figure img{
+    width: 100%;
+}
+.header_bottom_nav .two_list figure p{
+    text-align: center;
+    padding: 20px;
+}
+.header_bottom_nav li:hover .two_list{
+    display: block;
+}
+main article{
+    width: 80%;
+    min-width: 1024px;
+    margin: 0 auto;
+}
+/*---------------------------------------------------页尾-----------------------------------------------*/
+footer{
+    background: #000;
+    margin-top: 40px;
+}
+footer .footer_hd{
+    width: 80%;
+    min-width: 1024px;
+    margin: 0 auto;
+}
+.footer_hd .footer_list1{
+    border-bottom: 1px solid #646464;
+    padding: 20px 0 10px;
+}
+.footer_hd .footer_list1 input{
+    background: #000;
+    height: 40px;
+    width: 250px;
+    border: 1px solid #7b7b7b;
+    padding-left: 10px;
+}
+.footer_hd dl{
+    padding-top: 20px;
+    float: left;
+    width: 14%;
+    font-size: 12px;
+    line-height: 24px;
+}
+.footer_hd dl dt{
+    color: #fff;
+}
+.footer_hd dl dd a{
+    color: #9c9c9c;
+}
+.footer_hd dl dd a:hover{
+    color: #D0021B;
+}
+.footer_hd .footer_list2 li{
+    float: left;
+    width: 25%;
+    padding-right: 20px;
+    font-size: 12px;
+    padding-top: 20px;
+}
+.footer_hd .footer_list2 li a{
+    color: #9c9c9c;
+}
+.footer_hd .footer_list2 li a:hover{
+    color: #D0021B;
+}
+.footer_hd .footer_list2 li:last-child{
+    width: 75%;
+}
+.footer_hd .footer_list2 li img{
+    width: 100%;
+}
+.footer_hd p{
+    padding: 20px 0;
+    width: 800px;
+    text-align: center;
+    color: #9c9c9c;
+    font-size: 12px;
+    margin: 0 auto;
+}

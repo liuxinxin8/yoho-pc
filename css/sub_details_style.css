@@ -1,0 +1,212 @@
+/*-------------------------------------类样式--------------------------------------------*/
+.un{
+    text-decoration: line-through;
+}
+.f_b{
+    font-weight: bold;
+}
+.s_18{
+    font-size: 20px;
+}
+.b_r{
+    border: 1px solid #D0021B;
+    color: #D0021B;
+}
+.gray{
+    color: #8E8E8E;
+}
+.bg_gray{
+    padding: 5px 10px;
+    background: #B0B0B0;
+    color: #fff;
+    font-size: 12px;
+}
+.bg_red{
+    background: #D0021B;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+.b_gray{
+    border: 1px solid #8E8E8E;
+    padding:5px 10px;
+    color: #000;
+    font-size: 12px;
+    margin: 0 2px;
+}
+.bg_gray2{
+    padding: 5px 10px;
+    background: #E0E0E0;
+    color: #000;
+    border: 1px solid #666;
+    font-size: 12px;
+}
+.b_gray2{
+    border: 1px solid #8E8E8E;
+    padding:5px 20px;
+    color: #000;
+    font-size: 12px;
+}
+.t_b{
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #c5c5c5;
+}
+/*-------------------------------------类样式结束----------------------------------------*/
+main article .main_top dt{
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+main article .main_top dt a{
+    color: #888;
+}
+main article .main_top dt a:hover{
+    color: #D0021B;
+}
+main article .main_top dt a:last-child{
+    color: #000;
+}
+main article .main_top dd{
+    width: 50%;
+    float: left;
+}
+main .main_top .main_top_left ul{
+    float: left;
+    width: 80%;
+}
+main .main_top .main_top_left ul.main_top_hd{
+    width: 20%;
+}
+main .main_top .main_top_left ul li{
+    width: 100%;
+}
+main .main_top .main_top_left .main_top_hd li{
+    padding: 0 15px 20px;
+}
+main .main_top .main_top_left ul li img{
+    width: 100%;
+}
+main .main_top .main_top_left .main_top_hd li img:hover{
+    border: 2px solid #000;
+}
+main .main_top .main_top_left .main_top_bd{
+    overflow: hidden;
+    height: 560px;
+}
+main .main_top .main_top_right ul{
+    padding-left: 30px;
+}
+main .main_top .main_top_right ul li h1{
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #c5c5c5;
+}
+main .main_top .main_top_right ul li{
+    line-height: 40px;
+}
+main .main_top .main_top_right ul li span{
+    margin: 0 10px;
+}
+main .main_top .main_top_right ul li:nth-of-type(7) span{
+    margin: 0;
+}
+main .main_top .main_top_right ul li:nth-of-type(7) span:hover{
+    background: #000;
+    color: #fff;
+}
+main .main_top .main_top_right ul li:nth-of-type(7) span:first-child{
+    margin-left: 10px;
+}
+main .main_top .main_top_right ul li:nth-of-type(8) span{
+    margin: 0;
+}
+main .main_top .main_top_right ul li:nth-of-type(8) span:first-child{
+    margin-left: 10px;
+}
+main .main_top .main_top_right ul .btn{
+    width: 200px;
+    float: left;
+    height: 70px;
+    padding-right: 10px;
+}
+main .main_top .main_top_right .btn img{
+    width: 100%;
+    height: 100%;
+}
+main .main_top .main_top_right .btn a:hover img{
+    opacity: .8;
+}
+
+main .main_list{
+    margin-top: 50px;
+    border: 1px solid #c1c1c1;
+}
+main .main_list dl dt{
+    text-align: center;
+    width: 150px;
+    line-height: 40px;
+    margin: 30px auto;
+    border: 1px solid #000;
+}
+main .main_list dl dd{
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+main .main_list dl dd img{
+    width: 100%;
+}
+main .main_list dl:nth-of-type(3) dd:nth-of-type(1){
+    width: 70%;
+    padding: 20px 0;
+}
+main .main_list form{
+    width: 70%;
+    margin: 0 auto;
+}
+main .main_list form h3{
+    background: #444444;
+    color: #fff;
+    text-align: center;
+    width: 150px;
+    line-height: 40px;
+    margin: 30px auto;
+}
+main .main_list form textarea{
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+main .main_list form input{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 0;
+    margin-bottom: 30px;
+}
+main ul.main_sh{
+    margin-top: 30px;
+    border: 1px solid #B0B0B0;
+}
+main ul.main_sh li:first-child{
+    background: #F5F5F5;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+}
+main ul.main_sh li:last-child{
+    text-align: center;
+    padding: 40px 0;
+}
+
+
+
+
+
+
+
+
+

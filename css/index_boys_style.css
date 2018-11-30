@@ -1,0 +1,215 @@
+
+article .main_banner{
+    position: relative;
+    padding-bottom: 62px;
+}
+article .main_banner_bd li{
+    width: 100%;
+}
+article .main_banner .main_banner_bd li img{
+    width: 100%;
+    height: 100%;
+}
+article .main_banner_hd1 a{
+    opacity: .6;
+}
+article .main_banner_hd1 a:hover{
+    opacity: .9;
+}
+article .main_banner_hd1 a.prev{
+    position: absolute;
+    top: 45%;
+    left: 0;
+}
+article .main_banner_hd1 a.next{
+    position: absolute;
+    top: 45%;
+    right: 0;
+}
+article .main_banner_hd2{
+    position: absolute;
+    botton:0px;
+    width: 100%;
+}
+article .main_banner_hd2 li{
+    float: left;
+    width: 12.5%;
+    height: 58px;
+    padding: 0 2px;
+    overflow: hidden;
+}
+article .main_banner_hd2 li a{
+    display: block;
+    width: 100%;
+    background: #000;
+}
+article .main_banner_hd2 li img{
+    width: 100%;
+    opacity: .6;
+}
+article .main_banner_hd2 a:hover img{
+    transform: scale(1.1);
+    transition: .5s all;
+    opacity: 1;
+}
+
+main article section h3{
+    width: 300px;
+    margin: 80px auto 40px;
+    text-align: center;
+    border: 1px solid;
+    line-height: 30px;
+}
+/*--------------------------------------------------人气单品---------------------------------*/
+main .mono ul li{
+    float: left;
+    width: 16.5%;
+    height: 270px;
+    padding: 0 10px 10px 0;
+}
+main .mono ul .mono_big{
+    width: 34%;
+}
+main .mono ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+main .mono ul li a img{
+    width: 100%;
+    height: 100%;
+}
+@media (max-width: 1280px) {
+    main .mono ul li{
+        height: 230px;
+    }
+}
+main .mono ul li a:hover img{
+    opacity: .8;
+    transform: scale(1.1);
+    transition: .5s all;
+}
+main .mono .mono_banner{
+    width: 100%;
+    padding-right: 10px;
+}
+main .mono .mono_banner a{
+    width: 100%;
+}
+main .mono .mono_banner img{
+    width: 100%;
+}
+
+/*-----------------------------------------------优选品牌----------------------------------------*/
+
+main .preferred ul li{
+    float: left;
+    padding: 0 10px 10px 0;
+}
+main .preferred ul li a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+main .preferred ul li a img{
+    width: 100%;
+    height: 100%;
+}
+main .preferred .preferred_bd{
+    padding-right: 10px;
+}
+main .preferred .preferred_bd li{
+    width: 33.3%;
+}
+main .preferred .pre_brank li{
+    width: 16.66%;
+    height: 100px;
+}
+main .preferred .pre_brank li a{
+    background: #000;
+}
+main .preferred .pre_brank li a:hover img{
+    opacity: .7;
+}
+main .preferred .pre_brank li:last-child a{
+    line-height: 100px;
+    text-align: center;
+    font-size: 18px;
+    background: none;
+}
+main .preferred .pre_brank li:last-child a:hover{
+    text-decoration: underline;
+}
+
+/*---------------------------------------------------潮流上装-------------------------------------*/
+.jacket>a{
+    float: right;
+    padding-top: 7px;
+    padding-right: 10px;
+    font-size: 18px;
+}
+.jacket>a:hover{
+    text-decoration: underline;
+}
+.jacket .jacket_list1 li{
+    float: left;
+    width: 16.5%;
+    height: 270px;
+    padding: 0 10px 10px 0;
+}
+@media (max-width: 1280px) {
+    main .jacket .jacket_list1 li{
+        height: 230px;
+    }
+}
+.jacket .jacket_list1 li:first-child a img{
+    height: 50%;
+}
+.jacket .jacket_list1 .jacket_big{
+    width: 34%;
+}
+.jacket ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.jacket ul li a img{
+    width: 100%;
+    height: 100%;
+}
+.jacket .jacket_list1 li .jacket_sub{
+    padding-top: 20px;
+    background: #F8F8F8;
+    height: 260px;
+}
+.jacket .jacket_list1 li .jacket_sub li{
+    width: 50%;
+    float: left;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 5px;
+}
+.jacket .jacket_list1 li .jacket_sub li a:hover{
+    color: #D0021B;
+}
+@media (max-width: 1280px) {
+    .jacket .jacket_list1 li .jacket_sub{
+        height: 220px;
+    }
+}
+.jacket .jacket_list2 li{
+    width: 20%;
+    float: left;
+    padding: 0 10px 10px 0;
+}
+.jacket ul li a:hover img{
+    transition: 1s all;
+}
+
+
+
+
+
